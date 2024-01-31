@@ -1,0 +1,196 @@
+/* Bootstrap icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('home.jpg'); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#About{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Expect{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Delights{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Connections{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Informed{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Activities{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('fundraising.jpg'); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Events{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('about.jpg');*/
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+#Contact{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contact.jpg'); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+#filler{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contact.jpg'); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+
+#Calendar{
+ min-height: 100vh;
+  background-color: black;
+/* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('contact.jpg'); */
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+color: black;
+}
+
+
+
+/* classes */
+.center-text{
+  text-align:center;
+}
+
+.link{
+  color: black;
+}
+
+.font-{
+  font-size: 24px;
+}
+
+.font-size{
+  font-size: 24px;
+  color:black
+}
+
+.font{
+  font-size:20px;
+}
+
+.space{
+  margin-left:100px ;
+  margin-right:100px ;
+  color:black;
+}
+
+.font-{
+  color:white;
+}
+
+.font-size{
+  font-size: 7pc;
+}
+
+.bigh1{
+  font-size: 70px;
+}
+
+section{
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+}
+
+ h2 {
+font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+}
+
+ footer {
+   background-color:black;
+ }
+
+.effect{
+font-family: 'Kaushan Script', cursive;
+font-weight: 900;
+
+

@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>TrumanAfricanClub</title>
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <!-- Google fonts -->
+    <!-- Cinzel+Decorative -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" uijkuij7kkcrossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+   <!-- Kaushan+Script -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+     <script src="https://kit.fontawesome.com/c8a300b4d0.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap css -->   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     <!-- Custom css -->
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        border: 1px solid #f1f1f1;
+        perspective: 1000px; 
+      }
+
+      /* This container is needed to position the front and back side */
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+
+      /* Position the front and back side */
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden; /* Safari */
+        backface-visibility: hidden;
+      }
+
+      /* Style the front side (fallback if image is missing) */
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+
+      /* Style the back side */
+      .flip-card-back {
+        background-color: black;
+        color: white;
+        transform: rotateY(180deg);
+      }
+        </style>
+
+  </head>
+  <body>
+   <!-- Navbar section -->
+  <nav class="navbar navbar-expand-sm sticky-top bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+
+    <!-- Company name -->
+    <a class="navbar-brand" href="#top">
+    <img src="africanlogo.jpg" height="50" />
+    </a>
+
+        <!-- Home -->
+        <li class="nav-item space">
+          <p><a class="nav-link" href="index.html">Home</a></p>
+          <!-- About -->
+        </li>
+        <li class="nav-item space">
+          <p><a class="nav-link" href="About.html">About</a></p>
+        </li>
+        <!-- Activities -->
+      </li>
+        <li class="nav-item space">
+          <p><a class="nav-link" href="Activities.html">Activities</a></p>
+        </li>
+      <!-- Contact-->
+      </li>
+        <li class="nav-item space">
+          <p><a class="nav-link" href="contact.html">Contact</a></p>
+        </li>
+
+
+      </ul>
+      <form class="d-flex " role="search">
+      </form>
+    </div>
+  </div>
+</nav>
+
+    <!--Activities -->
+         <section id="Activities" class="d-flex align-items-center center-text">
+    <article class="container">
+       <h2 class="font- ">Activities</h2>
+      <!-- ROW #1 -->
+        <div class="row">
+      <div class="col"> 
+        <!-- COL A of ROW 1 -->
+
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="cultural.jpg" alt="Avatar" style="width:300px;height:300px;">
+            </div>
+            <div class="flip-card-back">
+              <h1>Cultural Trips</h1>
+              <p>Museums</br>
+            African markets on 116th</br>
+            Resturant</br>
+            Art/Music workshops</p> 
+            </div>
+          </div>
+        </div>
+      </br>
+      </br>
+
+      <!-- Col B of ROW 1 -->
+        <div class="col">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="cultural.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Fundraising</h1>
+                <p>Community services</br>
+              Making and putting up beads for sale</br>
+              Handmade African jewelry</br>
+              </p> 
+              </div>
+            </div>
+          </div>
+
+          <!-- Row #2 -->
+      <div class="row">
+        <div class="col">
+          <!-- Col A of Row 2 -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="cultural.jpg" alt="Avatar" style="width:300px;height:300px;">
+              </div>
+              <div class="flip-card-back">
+                <h1>Events</h1>
+                <p>Jollof Rice contest(After break)</br>
+              Game nights before holiday breaks</br>
+              </p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      </div>
+      </div>
+    </article>
+    </section>
+
+     <!-- Footer section -->
+    <footer class="text-light">
+      <article class="container py-5">
+        <div class="row">
+    <!-- ABOUT (contact info, address, tel, email, etc.-->
+    <div class="col">
+      <h4>Contact Us</h4>
+      <!-- TELEPHONE -->
+      <a href="#" class="link-light">Still in progress</a><br/>
+      <!-- EMAIL -->
+      <a href="#" class="link-light">Still in progress</a><br/>
+    </div><!-- END OF COL 1 -->
+    <!-- QUICK LINKS (mini navbar) -->
+    <div class="col">
+      <h4>Quick Links</h4>
+      <a href="#top" class="link-light">Home</a><br/>
+      <a href="#About" class="link-light">About</a><br/>
+      <a href="#Activities" class="link-light">Activities</a><br/>
+
+      </div><!-- END OF COL 2 -->
+    <!-- CONNECT (social media, newsletter sign-up, etc.) -->
+    <div class="col">
+     <h4>Connect</h4>
+      <!-- INSTAGRAM -->
+      <a href="https://www.instagram.com/#/" class="link-light"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+    </div><!-- END OF COL 3 -->
+        </div><!-- END OF ROW -->
+      </article>
+    </footer>
+
+
+
+  </body>
